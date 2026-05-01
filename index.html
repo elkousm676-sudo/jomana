@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>كلتش النجوم المتلألئ</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Tajawal:wght@300;400;500;700&family=Cairo:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+  
+    <style>
+        
+    :root {
+      --bg-color: #ffffff;
+      --text-color: #1f2937;
+      --heading-color: #111827;
+      --primary-color: #8B0000;
+      --button-color: #facc15;
+      --font-family: 'Cairo', sans-serif;
+      --font-size-base: 16px;
+      --section-padding: 64px;
+      --card-gap: 20px;
+      --border-radius: 12px;
+    }
+    body {
+      font-family: var(--font-family);
+      background-color: var(--bg-color);
+      color: var(--text-color);
+      font-size: var(--font-size-base);
+    }
+    h1, h2, h3, h4, h5, h6 {
+      color: var(--heading-color);
+    }
+    .custom-section {
+        padding-top: var(--section-padding);
+        padding-bottom: var(--section-padding);
+    }
+    .custom-gap {
+        gap: var(--card-gap);
+    }
+    .custom-radius {
+        border-radius: var(--border-radius);
+    }
+    .custom-radius-half {
+        border-radius: calc(var(--border-radius) / 2);
+    }
+    .custom-radius-large {
+        border-radius: calc(var(--border-radius) + 8px);
+    }
+    .btn-custom {
+        background-color: var(--button-color);
+        transition: transform 0.2s;
+    }
+    .btn-custom:hover {
+        transform: scale(1.02);
+    }
+  
+        .scroll-smooth { scroll-behavior: smooth; }
+    </style>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              primary: '#8B0000',
+            }
+          }
+        }
+      }
+    </script>
+</head>
+<body class="antialiased selection:bg-primary selection:text-white">
+    
+    <!-- HEADER -->
+    <nav class="fixed top-0 w-full z-50 backdrop-blur border-b border-white/10" style="background-color: #ffffffE6; border-color: rgba(0,0,0,0.05)">
+        <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
+            <h1 class="font-bold text-lg" style="color: var(--heading-color)">كلتش النجوم المتلألئ</h1>
+            <a href="#offer" class="px-5 py-2 font-bold text-white text-sm custom-radius-half btn-custom">
+                اطلبيه الآن واخطفي الأضواء!
+            </a>
+        </div>
+    </nav>
+
+    <!-- HERO -->
+    <header class="relative px-4 overflow-hidden custom-section" style="padding-top: calc(var(--section-padding) + 60px)">
+        
+        <div class="max-w-6xl mx-auto relative z-10 grid grid-cols-1 md:grid-cols-2 items-center custom-gap">
+            <div class="text-right">
+                <span class="inline-block px-3 py-1 mb-4 text-xs font-bold bg-white shadow-sm text-gray-800" style="border-radius: 99px; ">إطلالة ساحرة في كل مناسبة</span>
+                <h1 class="text-3xl md:text-5xl font-black mb-6 leading-tight" >تألقي بلمسة من الفخامة التي لا تُنسى!</h1>
+                <p class="text-lg mb-8 leading-relaxed opacity-80" >كلتش النجوم المتلألئ: الحقيبة التي تُكمل إطلالتك وتلفت الأنظار أينما ذهبتِ.</p>
+                <a href="#offer" class="inline-block px-8 py-3 text-base font-bold text-white custom-radius shadow-lg btn-custom">
+                    اطلبيه الآن واستمتعي بخصم خاص!
+                </a>
+            </div>
+            
+            <div class="relative">
+                <div class="relative overflow-hidden shadow-xl custom-radius" style="">
+                    <img src="v.png" alt="">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    
+    <!-- Standard Problem Section -->
+    <section class="px-4 custom-section">
+        <div class="max-w-4xl mx-auto text-center">
+            <h2 class="text-3xl font-bold mb-8" >هل سئمتِ من البحث عن الحقيبة المثالية؟</h2>
+            <div class="flex flex-col md:flex-row items-center custom-gap">
+                <div class="w-full md:w-1/2 relative overflow-hidden shadow-xl custom-radius">
+                    <img src="download.png" alt="">
+                </div>
+                <div class="w-full md:w-1/2 text-right">
+                    <p class="text-lg mb-6 opacity-80" >في كثير من الأحيان، تجدين الفستان المثالي وتصفيفة الشعر المتقنة، لكن ينقصكِ ذلك العنصر السحري الذي يرفع إطلالتكِ إلى مستوى آخر. الحقائب العادية لا تُعبر عن أناقتكِ، وتجعلكِ تشعرين أن شيئًا ما ناقص في حضوركِ المميز.</p>
+                    <ul class="space-y-4">
+                        
+                            <li class="flex items-center gap-3">
+                                <span class="font-bold text-lg" style="color: var(--primary-color)">✕</span>
+                                <span>حقائب لا تليق بالمناسبات الخاصة.</span>
+                            </li>
+                        
+                            <li class="flex items-center gap-3">
+                                <span class="font-bold text-lg" style="color: var(--primary-color)">✕</span>
+                                <span>شعور بعدم اكتمال الإطلالة.</span>
+                            </li>
+                        
+                            <li class="flex items-center gap-3">
+                                <span class="font-bold text-lg" style="color: var(--primary-color)">✕</span>
+                                <span>صعوبة العثور على تصميم يجمع بين الفخامة والعملية.</span>
+                            </li>
+                        
+                            <li class="flex items-center gap-3">
+                                <span class="font-bold text-lg" style="color: var(--primary-color)">✕</span>
+                                <span>ضياع الفرصة لترك انطباع لا يُنسى.</span>
+                            </li>
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <!-- DETAILED SECTIONS -->
+    <section class="px-4 custom-section">
+         <div class="max-w-6xl mx-auto">
+             
+        <div class="flex flex-col md:flex-row items-center gap-16 custom-section" style="gap: calc(var(--card-gap) * 2)">
+            <div class="w-full md:w-1/2">
+                <div class="relative overflow-hidden shadow-xl custom-radius">
+                    <img src="c.png" alt="">
+                </div>
+            </div>
+            <div class="w-full md:w-1/2 text-center md:text-right">
+                <h3 class="text-2xl font-bold mb-4" style="color: var(--heading-color)" >روعة التصميم الحرفي</h3>
+                <p class="text-base opacity-80 leading-relaxed" >كل كلتش من كلتشات النجوم المتلألئة هو نتيجة عمل يدوي دقيق وشغف لا متناهٍ بالتفاصيل. يتم اختيار كل خرزة بعناية فائقة وتثبيتها يدويًا، لتشكيل نسيج متلألئ يعكس الضوء ببراعة. الإطار الذهبي المصمم بنقوش فنية والسلسلة المتينة يضفيان لمسة ملكية ويزيدان من فخامة الحقيبة، مما يجعلها تحفة فنية تستحق أن تكون جزءًا من مجموعتكِ.</p>
+            </div>
+        </div>
+       
+        <div class="flex flex-col md:flex-row-reverse items-center gap-16 custom-section" style="gap: calc(var(--card-gap) * 2)">
+            <div class="w-full md:w-1/2">
+                <div class="relative overflow-hidden shadow-xl custom-radius">
+                    <img src="k.png" alt="">
+                </div>
+            </div>
+            <div class="w-full md:w-1/2 text-center md:text-right">
+                <h3 class="text-2xl font-bold mb-4" style="color: var(--heading-color)" >تنوع يواكب كل مناسباتك</h3>
+                <p class="text-base opacity-80 leading-relaxed" >سواء كنتِ تستعدين لحفل زفاف فاخر، سهرة عشاء راقية، أو أمسية خاصة، فإن كلتش النجوم المتلألئ هو خياركِ الأمثل. متوفرة بألوان كلاسيكية مثل الأحمر الناري والأسود الأنيق، لتتناسب مع مجموعة واسعة من الألوان والأنماط. تصميمها الأنيق يكمل فستان السهرة الطويل بنفس القدر الذي يبرز به جمال فستان الكوكتيل القصير، مانحًا إياكِ المرونة لتتألقي في أي مكان وزمان.</p>
+            </div>
+        </div>
+       
+        <div class="flex flex-col md:flex-row items-center gap-16 custom-section" style="gap: calc(var(--card-gap) * 2)">
+            <div class="w-full md:w-1/2">
+                <div class="relative overflow-hidden shadow-xl custom-radius">
+                    <img src="h.png" alt="">
+                </div>
+            </div>
+            <div class="w-full md:w-1/2 text-center md:text-right">
+                <h3 class="text-2xl font-bold mb-4" style="color: var(--heading-color)" >أكثر من مجرد حقيبة: بيان أناقة</h3>
+                <p class="text-base opacity-80 leading-relaxed" >إن كلتش النجوم المتلألئ ليس مجرد مكان لحفظ أغراضكِ الأساسية، بل هو امتداد لشخصيتكِ الجذابة وذوقكِ الرفيع. إنه البيان الذي تطلقينه دون الحاجة للكلمات، يخبر الجميع أنكِ تهتمين بأدق التفاصيل وأنكِ تختارين الجودة والأناقة التي لا تُضاهى. كوني أيقونة للموضة ودعي حقيبتكِ تتحدث عن أناقتكِ الفطرية وثقتكِ المطلقة.</p>
+            </div>
+        </div>
+       
+         </div>
+    </section>
+    
+    
+    <section class="px-4 custom-section" style="background-color: var(--bg-color)">
+       <div class="max-w-4xl mx-auto">
+          <div class="text-center mb-10"><h2 class="text-2xl font-bold">لماذا ستعشقين كلتش النجوم المتلألئ؟</h2></div>
+          <div class="grid grid-cols-1 md:grid-cols-2 custom-gap">
+             
+                <div class="bg-gray-50 p-6 border custom-radius">
+                   <h3 class="font-bold mb-2">تصميم يدوي فريد</h3>
+                   <p class="text-sm text-gray-500">كل حقيبة مصممة بعناية فائقة لضمان حصولكِ على قطعة فنية لا مثيل لها.</p>
+                </div>
+             
+                <div class="bg-gray-50 p-6 border custom-radius">
+                   <h3 class="font-bold mb-2">مواد عالية الجودة</h3>
+                   <p class="text-sm text-gray-500">خرز متلألئ وإطار معدني ذهبي متين لضمان الأناقة والمتانة على حد سواء.</p>
+                </div>
+             
+                <div class="bg-gray-50 p-6 border custom-radius">
+                   <h3 class="font-bold mb-2">لمسة فخمة لمناسباتكِ</h3>
+                   <p class="text-sm text-gray-500">مثالي لحفلات الزفاف، السهرات، والمناسبات الرسمية ليضيف بريقًا لا يقاوم.</p>
+                </div>
+             
+                <div class="bg-gray-50 p-6 border custom-radius">
+                   <h3 class="font-bold mb-2">إغلاق آمن وأنيق</h3>
+                   <p class="text-sm text-gray-500">مشبك إغلاق ذهبي يضمن أمان أغراضكِ مع إضافة لمسة جمالية.</p>
+                </div>
+             
+                <div class="bg-gray-50 p-6 border custom-radius">
+                   <h3 class="font-bold mb-2">سلسلة كتف قابلة للإزالة</h3>
+                   <p class="text-sm text-gray-500">مرونة في الحمل كحقيبة كلتش أو معلقة على الكتف لمزيد من الراحة.</p>
+                </div>
+             
+                <div class="bg-gray-50 p-6 border custom-radius">
+                   <h3 class="font-bold mb-2">خفيف الوزن وسهل الحمل</h3>
+                   <p class="text-sm text-gray-500">مصمم ليكون مريحًا للحمل طوال الأمسية دون أي عناء.</p>
+                </div>
+             
+          </div>
+       </div>
+    </section>
+    
+
+    
+    <section class="px-4 custom-section" style="background-color: rgba(0,0,0,0.02)">
+        <div class="max-w-6xl mx-auto">
+            <div class="text-center mb-12">
+                <h2 class="text-2xl font-bold mb-3" style="color: var(--heading-color)" >ماذا تقول عميلاتنا السعيدات؟</h2>
+                <div style="display: flex; justify-content: center; gap: 4px; color: #facc15; margin-bottom: 8px;">
+                    ★★★★★
+                </div>
+                <p class="text-sm opacity-60">4.9/5 من 250 تقييم</p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-3 custom-gap">
+                
+                    <div class="p-6 custom-radius" style="background-color: white; border: 1px solid rgba(0,0,0,0.05); border-style: dashed; border-width: 2px;">
+                        <p class="text-sm opacity-80 mb-4 leading-relaxed italic" >"اشتريت الكلتش الأحمر لحفل زفاف أختي وكان محط أنظار الجميع! الخرز لامع والجودة مذهلة. شعرت وكأنني أميرة. شكرًا لكم!"</p>
+                        <div class="flex items-center gap-3">
+                            <div class="w-8 h-8 rounded-full flex items-center justify-center font-bold text-xs" style="background-color: #e5e7eb; color: #374151">
+                                ف
+                            </div>
+                            <div>
+                                <div class="font-bold text-sm" >فاطمة أحمد</div>
+                                <div class="text-xs opacity-50">عميل موثق</div>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="p-6 custom-radius" style="background-color: white; border: 1px solid rgba(0,0,0,0.05); border-style: dashed; border-width: 2px;">
+                        <p class="text-sm opacity-80 mb-4 leading-relaxed italic" >"كنت أبحث عن حقيبة مميزة لسهراتي ولم أجد أفضل من هذا الكلتش الأسود. إنه يضيف لمسة من الرقي والفخامة لأي إطلالة. أوصي به بشدة لكل امرأة تبحث عن التميز."</p>
+                        <div class="flex items-center gap-3">
+                            <div class="w-8 h-8 rounded-full flex items-center justify-center font-bold text-xs" style="background-color: #e5e7eb; color: #374151">
+                                ل
+                            </div>
+                            <div>
+                                <div class="font-bold text-sm" >ليلى محمود</div>
+                                <div class="text-xs opacity-50">عميل موثق</div>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="p-6 custom-radius" style="background-color: white; border: 1px solid rgba(0,0,0,0.05); border-style: dashed; border-width: 2px;">
+                        <p class="text-sm opacity-80 mb-4 leading-relaxed italic" >"الجودة تفوق التوقعات! التفاصيل الذهبية رائعة والسلسلة قوية ومريحة. كلما حملته، أتلقى الكثير من الإطراءات. إنه يستحق كل قرش!"</p>
+                        <div class="flex items-center gap-3">
+                            <div class="w-8 h-8 rounded-full flex items-center justify-center font-bold text-xs" style="background-color: #e5e7eb; color: #374151">
+                                ن
+                            </div>
+                            <div>
+                                <div class="font-bold text-sm" >نور خالد</div>
+                                <div class="text-xs opacity-50">عميل موثق</div>
+                            </div>
+                        </div>
+                    </div>
+                
+            </div>
+        </div>
+    </section>
+  
+
+    
+
+    <footer class="py-8 text-center text-sm opacity-50 border-t border-white/10">
+        <p>© 2026 كلتش النجوم المتلألئ. جميع الحقوق محفوظة.</p>
+    </footer>
+
+</body>
+</html>
